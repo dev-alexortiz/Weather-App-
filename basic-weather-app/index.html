@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Weather App</title>
+  <link href="https://fonts.googleapis.com/css?family=Mogra|Monoton|Questrial" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.8/css/all.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <header> BASIC WEATHER APP </header>
+<div class = "rain-box">
+  <div class = "cloud-text">LOADING . . .</div>
+  <div class = "cloud">
+  <i class="fas fa-cloud"></i>
+  <i class="fas fa-cloud behind"></i>
+  </div>
+  <div class = "rain1">
+  <div id = "r1"class = "sorta-circle"></div>
+  <div id = "r2" class = "sorta-circle"> </div>
+  <div id = "r3" class = "sorta-circle"> </div>
+  </div>
+    <div class ="rain2">
+<div id = "r4" class = "sorta-circle"> </div>
+<div id = "r5" class = "sorta-circle"> </div>
+  </div>
+  <div class = "rain3">
+  <div id = "r6" class = "sorta-circle"></div>
+  <div id = "r7" class = "sorta-circle"> </div>
+  <div id = "r8" class = "sorta-circle"> </div>
+  </div>
+  </div>
+
+<div class = "box">
+  <div id = "location"></div>
+  <div class = "data">
+    <canvas class = "icon" id="icon" width="128" height="128"></canvas>
+    <div id = "temp"> </div>
+    <div class = "degree"><sup><button id = "F">&#8457</button> | <button id = "C"> &#8451</button></sup></div>
+    <div class = "stats">
+      <h1 id = "stats1"></h1>
+      <h4 id = "stats2"></h4>
+      <h4 id = "stats3"></h4>
+    </div>
+  </div>
+  <div id = "alerts"></div>
+</div>
+<footer> By <a href= "https://codepen.io/alexortiz/" rel= "noopener" target = "_blank">Alex Ortiz </a></footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://gitcdn.link/cdn/darkskyapp/skycons/master/skycons.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
